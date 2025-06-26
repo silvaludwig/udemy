@@ -1,0 +1,47 @@
+/*SELETOR UNIVERSAL
+*{
+	border: 1px solid darkred;
+}*/
+
+/*SELETOR DE TEXTO*/
+
+h1, h2 {
+	color: green;
+}
+
+/*SELETOR DE CLASSE*/
+
+/*aqui todos os elementos que tiverem essa classe ficarão azuis
+.azul{
+	color: blue;
+}*/
+
+/*aqui somente os elementos tipo p (parágrafo) seriam afetados pela classe azul. 
+isso serve pra todas as demais classes. é uma forma de isolar apenas pra um tipo específico de elemento.*/
+p.azul {
+	color: blue;
+}
+
+/*
+SELETOR DE FILHO
+Seleciona elementos que tenham relação direta com outros elementos.
+Por exemplo: um link (a) que está dentro de uma lista (li). 
+Dessa forma só os elementos que cumpram essa condição, um link que pertença
+a uma lista, serão afetados.*/
+
+li>a{
+	text-decoration: none;
+	color: purple;
+}
+
+/*
+SELETOR DESCENDENTE
+Seleciona todos os elementos que estejam dentro de um outro elemento, 
+sem necessariamente serem filhos diretos. Diferente do exemplo anterior,
+onde o elemento tinha que ser literalmente o filho do anterior pra que 
+a formatação fosse aplicada. 
+*/
+
+p a {
+	color: red;
+}
