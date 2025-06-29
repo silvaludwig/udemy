@@ -13,11 +13,22 @@ ul a {
 	text-indent: 40px;
 	line-height: 40px;
 	font-size: 20px;
-	background: url(../imagens/menu.png) no-repeat right bottom;
+	background: #f7b600 url(../imagens/menu.png) no-repeat right bottom;
 
 }
 
 a:hover {
 	background-position: left bottom;
+	background-color: #f99200;
+	color: white;
+}
+
+#pagina1 #menu-lateral .pagina1 a,
+#pagina2 #menu-lateral .pagina2 a,
+#pagina3 #menu-lateral .pagina3 a,
+#pagina4 #menu-lateral .pagina4 a,
+#pagina5 #menu-lateral .pagina5 a {
+	background-position: left bottom;
+	background-color: #f99200;
 	color: white;
 }
