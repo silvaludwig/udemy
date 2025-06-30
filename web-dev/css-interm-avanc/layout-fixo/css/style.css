@@ -4,7 +4,7 @@ body {
 }
 
 #container {
-	width: 720px;
+	width: 90%;
 	margin: 0 auto;
 	background: #fff;
 }
@@ -17,12 +17,12 @@ body {
 }
 
 #conteudo {
-	width: 520px;
+	width: 70%;
 	float: right;
 }
 
 #navegacao {
-	width: 180px;
+	width: 25%;
 	float: left;
 	padding-top: 20px;
 	padding-bottom: 20px;
